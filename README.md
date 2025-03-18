@@ -1,40 +1,36 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a Plasmic app template which includes the SSR split content support using middleware. 
+Read more about split content in our [docs](https://docs.plasmic.app/learn/split-content/).
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fplasmicapp%2Fsplit-content-template&env=PLASMIC_PROJECT_ID,PLASMIC_TOKEN&envDescription=You%20need%20to%20initialize%20Plasmic%20with%20the%20project%20ID%20and%20public%20API%20token.&envLink=https%3A%2F%2Fdocs.plasmic.app%2Flearn%2Fnextjs-quickstart%2F%23initialization)
 
 ## Getting Started
 
-First, run the development server:
+First, add the `PLASMIC_PROJECT_ID` and `PLASMIC_TOKEN` to your `.env.local` file or Vercel environment variables.
+
+To find your project’s ID and public API token open the project in Plasmic Studio.
+
+The project ID is in the URL, like: https://studio.plasmic.app/projects/PROJECTID.
+
+The public API token can be found by clicking the Code toolbar button.
+
+Next, run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open your browser to see the result.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+You can start editing your project in Plasmic Studio. The page auto-updates as you edit the project.
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+With Plasmic, you can enable non-developers on your team to publish pages and content into your website or app.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+To learn more about Plasmic, take a look at the following resources:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- [Plasmic Website](https://www.plasmic.app/)
+- [Plasmic Documentation](https://docs.plasmic.app/learn/)
+- [Plasmic Community Forum](https://forum.plasmic.app/)
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+You can check out [the Plasmic GitHub repository](https://github.com/plasmicapp/plasmic) - your feedback and contributions are welcome!
