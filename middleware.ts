@@ -2,7 +2,6 @@
 import { getMiddlewareResponse } from "@plasmicapp/loader-nextjs/edge";
 import { NextRequest,NextResponse } from "next/server";
 
-
 export default async function middleware(req: NextRequest) {
     // Only pick a variation for GET requests
     if (req.method !== 'GET') {
@@ -18,8 +17,7 @@ export default async function middleware(req: NextRequest) {
     const { pathname, cookies } = getMiddlewareResponse({
       path: newUrl.pathname,
       traits: {
-        // Add values for custom traits that you are using; these are
-        // likely read off of the cookie.
+        age: req.cookies.get('age')?.value || '',
       },
       cookies: {
         ...(PLASMIC_SEED ? { plasmic_seed: PLASMIC_SEED.value } : {})
