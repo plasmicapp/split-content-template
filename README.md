@@ -10,21 +10,27 @@ Read more about split content in our [docs](https://docs.plasmic.app/learn/split
 
 ## Getting Started
 
-First, add the `PLASMIC_PROJECT_ID` and `PLASMIC_TOKEN` to your `.env.local` file or Vercel environment variables.
+This repo is pre-configured to use the projectId and token from the project listed in the demo section.
+In order to get started you'd need to:
 
-To find your project’s ID and public API token open the project in Plasmic Studio.
+1) Fork this repository 
 
-The project ID is in the URL, like: https://studio.plasmic.app/projects/PROJECTID.
+2) Choose an existing Plasmic project, or create a new one.
 
-The public API token can be found by clicking the Code toolbar button.
+3) Add your `PLASMIC_PROJECT_ID` and `PLASMIC_TOKEN` to the `plasmic-init.ts` file. To find project’s ID and public API token open the project in Plasmic Studio.
+  - The project ID is in the URL, like: https://studio.plasmic.app/projects/PROJECTID.
+  - The public API token can be found by clicking the Code toolbar button.
 
-Next, run the development server:
+4) Next, run the development server: `npm run dev`
 
-```bash
-npm run dev
-```
+5) Open your browser to see the result.
 
-Open your browser to see the result.
+6) Press the Deploy with Vercel button to host your app on Vercel. Get the public link of your deployment.
+
+7) [Follow this guide](https://docs.plasmic.app/learn/app-hosting/) to connect the app host in Plasmic studio
+
+8) (Optional) Configure webhooks to re-build Vercel every time you publish from Plasmic. Follow [this guide](https://vercel.com/docs/deploy-hooks) to get webhook URL on Vercel, and then add the URL in the Plasmic studio in Publish -> Webhooks.
+
 
 You can start editing your project in Plasmic Studio. The page auto-updates as you edit the project.
 
