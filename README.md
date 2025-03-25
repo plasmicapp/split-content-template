@@ -1,7 +1,7 @@
 This is a Plasmic app template which includes the SSR split content support using middleware. 
 Read more about split content in our [docs](https://docs.plasmic.app/learn/split-content/).
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fplasmicapp%2Fsplit-content-template&env=PLASMIC_PROJECT_ID,PLASMIC_TOKEN&envDescription=You%20need%20to%20initialize%20Plasmic%20with%20the%20project%20ID%20and%20public%20API%20token.&envLink=https%3A%2F%2Fdocs.plasmic.app%2Flearn%2Fnextjs-quickstart%2F%23initialization)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fplasmicapp%2Fsplit-content-template)
 
 ## Demo
 
